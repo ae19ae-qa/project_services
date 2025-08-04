@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f6b9f6e-849d-4415-a0c9-92e32d399911">
+  <name>Предприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предприятие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Предприятие</picture>
+  </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.Универсальный</content>
+  <content>Report.РейтингУслуг</content>
+  <content>Report.РейтингКлиентов</content>
+  <content>Report.РеестрДокументовОказаниеУслуги</content>
+  <content>Report.ПереченьУслуг</content>
+  <content>Report.Материалы</content>
+  <content>Report.ВыручкаМастеров</content>
+  <content>Report.ОстаткиМатериаловПоСвойствам</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>Report.Экспериментальный</content>
+</mdclass:Subsystem>

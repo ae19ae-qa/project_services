@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04f93bfd-09c8-4ae8-a03d-398637262f9a">
+  <name>РасчетЗаплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет заплаты</value>
+  </synonym>
+</mdclass:CommonPicture>

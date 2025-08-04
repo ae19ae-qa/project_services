@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13db5209-2672-46a7-aee8-82772b97a707">
+  <producedTypes>
+    <objectType typeId="30c95935-80e0-4e32-877b-ae7a8c19288c" valueTypeId="7ae7127b-8dfd-4d1f-b51b-86f3acfbf802"/>
+    <managerType typeId="6c6640cf-1db1-4cbc-bbf5-dae026164f7b" valueTypeId="0759ddf9-8a97-40da-8ac1-a5adeb5ff048"/>
+  </producedTypes>
+  <name>ОборотноСальдоваяВедомость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборотно-сальдовая ведомость</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОборотноСальдоваяВедомость.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="96995761-9b4a-4d8f-84a0-3dd4b0c19e53">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

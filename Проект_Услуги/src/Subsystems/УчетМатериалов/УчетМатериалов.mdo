@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5f4f4a4-c29e-4054-a4d2-0e59a51925aa">
+  <name>УчетМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет материалов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УчетМатериалов</picture>
+  </picture>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Report.Материалы</content>
+  <content>InformationRegister.ЦеныРеализации</content>
+  <content>Report.ОстаткиМатериаловПоСвойствам</content>
+</mdclass:Subsystem>

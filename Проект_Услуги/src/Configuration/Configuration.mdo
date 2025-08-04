@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39f1823e-8e99-4aa8-af9d-7f754f8b6986">
+  <name>Проект_Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бытовые услуги</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d1887028-f379-4e5e-bed3-79a552ddb310"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="482cf1d2-8a22-49b5-8d55-0fece2a747ba"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="039ce34b-4373-4dd6-a9bd-4c5cf84805b3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="261b0da6-6c84-47cb-80ed-9e2e12977d5f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1c0322fa-6476-4454-8927-955c38a3d940"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="08829ff1-6769-481d-aec9-0d5e1344c448"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6743e148-627b-49b8-ae46-a6a152d1cd60"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>А.Ершов</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>А.Ершов</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="c8361e15-c110-42ac-9ca7-f33eba9da808">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <commonPictures>CommonPicture.РасчетЗаплаты</commonPictures>
+  <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
+  <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
+  <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
+  <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
+  <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Субконто</catalogs>
+  <documents>Document.НачисленияСотрудникам</documents>
+  <documents>Document.ОказаниеУслуги</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <enums>Enum.АлгоритмыРасчета</enums>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.ДиаграммаНачислений</reports>
+  <reports>Report.Материалы</reports>
+  <reports>Report.НачисленияСотрудникам</reports>
+  <reports>Report.ОборотноСальдоваяВедомость</reports>
+  <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
+  <reports>Report.Перерасчет</reports>
+  <reports>Report.ПереченьУслуг</reports>
+  <reports>Report.РеестрДокументовОказаниеУслуги</reports>
+  <reports>Report.РейтингКлиентов</reports>
+  <reports>Report.РейтингУслуг</reports>
+  <reports>Report.Универсальный</reports>
+  <reports>Report.Экспериментальный</reports>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныРеализации</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
+</mdclass:Configuration>

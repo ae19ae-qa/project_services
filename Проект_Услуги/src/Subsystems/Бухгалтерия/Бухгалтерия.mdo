@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fc43d49-7a2a-479f-a524-3625b43feac2">
+  <name>Бухгалтерия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Бухгалтерия</picture>
+  </picture>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.ОказаниеУслуги</content>
+  <content>Report.Материалы</content>
+  <content>InformationRegister.ЦеныРеализации</content>
+  <content>Report.РеестрДокументовОказаниеУслуги</content>
+  <content>Report.РейтингУслуг</content>
+  <content>Report.ПереченьУслуг</content>
+  <content>Report.РейтингКлиентов</content>
+  <content>Report.ОстаткиМатериаловПоСвойствам</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.Основной</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+</mdclass:Subsystem>

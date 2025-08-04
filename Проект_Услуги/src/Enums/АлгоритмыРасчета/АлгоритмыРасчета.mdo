@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4308a8e1-bb0c-4506-90c1-db8af35b5ea6">
+  <producedTypes>
+    <refType typeId="7f8cf5f6-612f-462f-b1bb-0f1e610c015c" valueTypeId="9a37c967-001c-4509-80c7-fdd30bea53f6"/>
+    <listType typeId="79cc9b52-5bd1-4ce7-88dc-5e4c7eb489bb" valueTypeId="9067e4e8-d714-4886-95c5-9e7f716b6b1a"/>
+    <managerType typeId="10127e2b-3813-46f8-9d51-f43487cbcc6b" valueTypeId="3dd0d780-6db2-4c97-8031-5d57903e881b"/>
+  </producedTypes>
+  <name>АлгоритмыРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы расчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f01a7c66-85cd-4acd-aaa1-efe6f4adfac2">
+    <name>ФиксированнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированная сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2902dec7-6b76-4233-8ee5-4b71f9f317dc">
+    <name>ПроцентОтБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от базы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae9e9684-7e52-42bd-ae4e-526c7bf9472e">
+    <name>ПропорциональноОтБазовогоРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропорционально от базового расчета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3a87ba8-c952-4a8c-b566-02b7e2a165e4">
+    <name>ЗаотработанноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заотработанное время</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab6ade0c-be4f-4ab3-8cb5-e32d73fb1825">
+    <name>ПоСреднему</name>
+    <synonym>
+      <key>ru</key>
+      <value>По среднему</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
