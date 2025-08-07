@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46f6bc8c-cfdd-4e0e-9fd1-f392d703aa87">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61d34b08-0245-4a3e-a3cf-6685b70220e0">
   <producedTypes>
-    <objectType typeId="9380dcea-17c4-4ff0-8864-234b04533f94" valueTypeId="5d444893-e2eb-45a4-a8b6-a1cfae37f704"/>
-    <refType typeId="6ab9e438-1373-4e65-a5ba-21755917d0a5" valueTypeId="22204d16-b10c-463d-b932-8f5b8c26ae3c"/>
-    <selectionType typeId="86a5cab8-1587-41ca-a483-f2b0ec00d839" valueTypeId="da854b9d-1070-42d2-8ff5-1e41eea3461d"/>
-    <listType typeId="55e96eec-b289-485e-ab8c-84e475746132" valueTypeId="3e6eb621-0165-4ebd-a0e7-a7324e953ea8"/>
-    <managerType typeId="42acbaf0-ad36-4c81-8f04-ef6563e62b3a" valueTypeId="1a0ae19b-cfad-4a29-994d-193e6db34f82"/>
+    <objectType typeId="c252602e-16c2-4a53-b5ae-25d87935b4e6" valueTypeId="b2bf0576-1110-4c0d-920b-3cc29973a713"/>
+    <refType typeId="19cfc5d6-7626-4a2e-aa68-22922c9ff34e" valueTypeId="1d666195-b05f-447c-852a-7dfd6aee3cbc"/>
+    <selectionType typeId="def2dc57-78de-4b2f-8c4a-fd3883b915f9" valueTypeId="ddbdf2b6-5007-45b4-83c5-075a55fa4268"/>
+    <listType typeId="2cc3a3d5-f47d-4508-85fc-58e44aa94e56" valueTypeId="c6849500-570d-4790-b63e-8fd9372f1ead"/>
+    <managerType typeId="ac8b4d1b-b322-4a40-8858-06a0d4fd883a" valueTypeId="a6eb7a90-c62b-4ba6-9851-5bd1e62efffc"/>
   </producedTypes>
-  <name>ВидыГрафиковРаботы</name>
+  <name>ВидыГрафиковРабот</name>
   <synonym>
     <key>ru</key>
-    <value>Виды графиков работы</value>
+    <value>Виды графиков работ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ВидыГрафиковРаботы.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ВидыГрафиковРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыГрафиковРабот.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыГрафиковРабот.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Виды графиков работы</value>
+    <value>Виды графиков работ</value>
   </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -33,14 +33,14 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
-    <items id="5099bff7-aaf5-49fc-b21b-23b209565650">
+    <items id="fa575cdc-726a-4a3d-9059-367018f1b160">
       <name>ГрафикМастеров</name>
       <description>График мастеров</description>
       <code xsi:type="core:StringValue">
         <value>000000001</value>
       </code>
     </items>
-    <items id="c31b0f30-ddc8-46e6-b4de-e5c229a084f8">
+    <items id="03f69020-68b5-4d3d-9ba1-04dcc9db5035">
       <name>ГрафикАдминистрации</name>
       <description>График администрации</description>
       <code xsi:type="core:StringValue">
@@ -49,5 +49,6 @@
     </items>
   </predefined>
   <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

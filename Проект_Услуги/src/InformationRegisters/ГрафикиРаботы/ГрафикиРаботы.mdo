@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="616ce1a1-414a-440f-94a7-41f55462e11b">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79f047bf-e5cf-4427-8383-94274714639e">
   <producedTypes>
-    <selectionType typeId="f37b4ec1-24c9-4a6b-b3d5-ba719c291230" valueTypeId="cf35b968-7d30-46fe-843c-4c38f6893f54"/>
-    <listType typeId="92360583-432e-43ad-a617-233c1177cf69" valueTypeId="6ac0cce5-68b0-4738-8d9e-ad6549da53a6"/>
-    <managerType typeId="8dee4df7-2ded-4029-8856-fff6b7eba5b7" valueTypeId="f212cb99-5dc2-4a3a-9b6b-9e7904a51ef5"/>
-    <recordSetType typeId="8db3c437-a658-411e-91a6-574001d89826" valueTypeId="53eb6005-d18e-4dbb-ae56-2d6b47f36511"/>
-    <recordKeyType typeId="18c66e46-54fe-4930-a9d1-ecdc236e9951" valueTypeId="ce9d8b19-3ef3-4cf3-8862-f1297979cff3"/>
-    <recordType typeId="c7fd1f43-9543-4ec7-9d3b-641441986d27" valueTypeId="905e8fb2-89b9-4d39-9113-7b22b9efdb0f"/>
-    <recordManagerType typeId="91eb7bb8-b148-4cec-aadd-ea66ab65c5a1" valueTypeId="d79c4a9b-ce6e-4897-88b0-400b379a1e57"/>
+    <selectionType typeId="42695d75-0392-4495-b9a6-191ac84279fb" valueTypeId="83e947b1-3ccb-4d98-ad36-4c8ddfc9050a"/>
+    <listType typeId="4b3a2157-310b-49c2-afdc-f4a5c025fa73" valueTypeId="9c9167ae-d872-4f1e-b16b-762af59fcd71"/>
+    <managerType typeId="df3ac19a-3777-43ee-9048-e4162aae1a0b" valueTypeId="cc8f6229-3ead-4497-9129-0f93b95243b4"/>
+    <recordSetType typeId="797f6bea-8225-41c0-9a1f-6dcc33842ce2" valueTypeId="30ee7cb0-696b-4783-9bc2-45667e264b60"/>
+    <recordKeyType typeId="90124c83-1a53-4164-874c-8f8d049913d6" valueTypeId="1b51ea82-7927-4930-9ef0-dd52434a2a4f"/>
+    <recordType typeId="ca80d3e9-427b-4b66-82bc-e498169acd40" valueTypeId="5ef8830d-578c-47bc-9cc6-926a1d4803a5"/>
+    <recordManagerType typeId="41fb3a47-a03d-4f85-9d53-ef5b98b7191f" valueTypeId="1a2e31d0-60b1-4756-a163-50b1b799db1e"/>
   </producedTypes>
   <name>ГрафикиРаботы</name>
   <synonym>
@@ -17,11 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <listPresentation>
-    <key>ru</key>
-    <value>Графики работы</value>
-  </listPresentation>
-  <resources uuid="f14222a0-a25a-465d-a2ec-3319a3d8c259">
+  <resources uuid="8201bf72-c68a-4342-953a-da35e238222a">
     <name>Значение</name>
     <synonym>
       <key>ru</key>
@@ -39,14 +35,14 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="087828a9-a2a3-4c48-9f6d-2759faf5c897">
+  <dimensions uuid="12a95f2c-7fe0-4ebc-a08c-fed8c105a878">
     <name>ГрафикРаботы</name>
     <synonym>
       <key>ru</key>
       <value>График работы</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВидыГрафиковРаботы</types>
+      <types>CatalogRef.ВидыГрафиковРабот</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -55,7 +51,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="0e70f09e-9c81-4779-a3e8-dd22426bed7f">
+  <dimensions uuid="ec14fcde-8ad0-4431-a823-87fe0ac7113c">
     <name>Дата</name>
     <synonym>
       <key>ru</key>

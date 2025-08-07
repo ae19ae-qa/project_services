@@ -11,18 +11,18 @@
 			<field>ОбъектПерерасчета</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ВидРасчета</dataPath>
-			<field>ВидРасчета</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Сотрудник</dataPath>
 			<field>Сотрудник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидРасчета</dataPath>
+			<field>ВидРасчета</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	НачисленияПерерасчет.ОбъектПерерасчета,
-	НачисленияПерерасчет.ВидРасчета,
-	НачисленияПерерасчет.Сотрудник
+	НачисленияПерерасчет.Сотрудник,
+	НачисленияПерерасчет.ВидРасчета
 ИЗ
 	РегистрРасчета.Начисления.Перерасчет КАК НачисленияПерерасчет</query>
 	</dataSet>

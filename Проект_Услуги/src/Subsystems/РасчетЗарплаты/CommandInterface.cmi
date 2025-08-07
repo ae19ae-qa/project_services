@@ -25,8 +25,8 @@
       <group>NavigationPanelOrdinary</group>
       <commands>CalculationRegister.Начисления.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВидыГрафиковРаботы.StandardCommand.OpenList</commands>
       <commands>ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВидыГрафиковРабот.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ГрафикиРаботы.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>

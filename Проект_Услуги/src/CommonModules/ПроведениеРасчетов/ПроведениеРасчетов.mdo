@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b83d2d5-b163-4072-a223-5e6038865450">
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5845b43e-13f3-4782-95fb-74ae5603f382">
   <name>ПроведениеРасчетов</name>
   <synonym>
     <key>ru</key>

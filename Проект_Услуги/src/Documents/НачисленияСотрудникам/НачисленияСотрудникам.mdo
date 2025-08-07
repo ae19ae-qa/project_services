@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf0c06c2-fe32-44cd-87ac-5a3e7ce883b8">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13b79424-4e15-4f2e-a232-d647cf385615">
   <producedTypes>
-    <objectType typeId="cff48383-5058-41ea-bdec-fbf41203bd54" valueTypeId="d4082f1b-b728-4b50-a9a9-2b62369f44fa"/>
-    <refType typeId="5268cebc-6068-4d1e-83d4-bb7ad572668c" valueTypeId="533db36b-9685-4e68-9092-125d9aa3d24b"/>
-    <selectionType typeId="b68d4d55-4533-4743-8f8d-789aa5558c6b" valueTypeId="506c9bfe-842d-47ac-8c03-75034128c130"/>
-    <listType typeId="72fae2a8-9211-4aa8-b089-4d99ccc31b69" valueTypeId="60bc6d57-8ed9-46ab-abd4-103b24e8b5e3"/>
-    <managerType typeId="3fe72343-40a8-4bed-b939-7e459f74961c" valueTypeId="312d0b03-b6bd-4a70-b770-be2c839ab03a"/>
+    <objectType typeId="b2cf5873-7fea-4a42-95f9-132faf34e4a1" valueTypeId="8681ed5f-a717-47cf-ac36-01b15822bc7d"/>
+    <refType typeId="5e57df1f-9267-418c-a311-93bf17d2481f" valueTypeId="5c31f829-0aad-46d4-99f2-60052a03f581"/>
+    <selectionType typeId="2ef0edd8-6127-4254-bc66-6a2954425e8e" valueTypeId="324f4bc0-6bac-4a35-b4b6-0a48934a5388"/>
+    <listType typeId="dee95634-73c7-4503-9803-e12f425b8363" valueTypeId="4477171e-3069-4bf8-8569-a38e1498e784"/>
+    <managerType typeId="15bc8d50-bede-4ed8-a31c-0906daab7d3c" valueTypeId="29bf5a11-8c84-4312-a470-441da6ddf3fc"/>
   </producedTypes>
   <name>НачисленияСотрудникам</name>
   <synonym>
@@ -18,29 +18,25 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <listPresentation>
-    <key>ru</key>
-    <value>Начисления сотрудникам</value>
-  </listPresentation>
-  <numberLength>5</numberLength>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <realTimePosting>Deny</realTimePosting>
   <registerRecords>CalculationRegister.Начисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <tabularSections uuid="8a30737b-199a-4cc5-951e-64b09c4aecd4">
+  <tabularSections uuid="98727c5e-42bc-4b25-9f54-4a86cbe81766">
     <producedTypes>
-      <objectType typeId="4d3a3872-457a-4322-ae2a-cb7eb3e7d5ed" valueTypeId="2cf31163-c22d-4b42-af87-a06bb46cbcb8"/>
-      <rowType typeId="8af5bc5e-a261-4412-bd44-86f1c810d75d" valueTypeId="907a6903-4b0d-474b-a111-2180fe081c95"/>
+      <objectType typeId="c186d5f1-6192-4728-95e1-d2bb53ec4f2f" valueTypeId="dce90908-702d-4c30-8dbc-2d40a6759f47"/>
+      <rowType typeId="dee2d812-0ffd-44cf-80cb-ddd249c2bbf3" valueTypeId="e86acd4a-edd3-40f0-a890-c0cfa4de0b8c"/>
     </producedTypes>
     <name>Начисления</name>
     <synonym>
       <key>ru</key>
       <value>Начисления</value>
     </synonym>
-    <attributes uuid="d88b82cb-90ba-41a1-9ecb-e6e1be6a5ad7">
+    <attributes uuid="f2061b5b-5f02-4330-8d5f-f676ca60a258">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -54,21 +50,21 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="5ad9a219-4615-4ad8-b642-ee5c14917fbc">
+    <attributes uuid="3037ca35-ace5-4c28-b19f-9708d2ce705c">
       <name>ГрафикРаботы</name>
       <synonym>
         <key>ru</key>
         <value>График работы</value>
       </synonym>
       <type>
-        <types>CatalogRef.ВидыГрафиковРаботы</types>
+        <types>CatalogRef.ВидыГрафиковРабот</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="a42b6cb0-29b2-43d3-a3f4-84bedc09ffce">
+    <attributes uuid="cc99ea01-9a29-4b51-b42e-d787009b5c5a">
       <name>ДатаНачала</name>
       <synonym>
         <key>ru</key>
@@ -85,7 +81,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="ece17fea-68be-4808-8071-19bb7884413f">
+    <attributes uuid="4ec1793f-3b2f-4dcf-a0a8-a5e8342dd564">
       <name>ДатаОкончания</name>
       <synonym>
         <key>ru</key>
@@ -102,7 +98,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="f873f45c-65e2-45e9-bbb5-14ce472b3542">
+    <attributes uuid="6f4b2b89-4aa9-4311-9643-9f47bcfeb55e">
       <name>ВидРасчета</name>
       <synonym>
         <key>ru</key>
@@ -116,7 +112,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="8d548a96-52dc-4e5e-8f46-c266da66aa47">
+    <attributes uuid="968f77eb-7a14-499e-9007-6e237eeaf7f5">
       <name>Начислено</name>
       <synonym>
         <key>ru</key>

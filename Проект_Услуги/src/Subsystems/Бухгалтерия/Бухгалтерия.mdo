@@ -26,5 +26,4 @@
   <content>AccountingRegister.Управленческий</content>
   <content>Report.ОборотноСальдоваяВедомость</content>
   <content>Document.ВводНачальныхОстатковНоменклатуры</content>
-  <content>Role.Администратор</content>
 </mdclass:Subsystem>

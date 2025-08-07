@@ -54,11 +54,6 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.РасчетЗаплаты</commonPictures>
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
-  <roles>Role.Администратор</roles>
-  <roles>Role.Бухгалтер</roles>
-  <roles>Role.Директор</roles>
-  <roles>Role.Мастер</roles>
-  <roles>Role.Расчетчик</roles>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
@@ -67,7 +62,7 @@
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
-  <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
+  <catalogs>Catalog.ВидыГрафиковРабот</catalogs>
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -81,7 +76,7 @@
   <enums>Enum.АлгоритмыРасчета</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.ВыручкаМастеров</reports>
-  <reports>Report.ДиаграммаНачислений</reports>
+  <reports>Report.ДиаграммаГанта</reports>
   <reports>Report.Материалы</reports>
   <reports>Report.НачисленияСотрудникам</reports>
   <reports>Report.ОборотноСальдоваяВедомость</reports>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb3740b1-df78-49e7-a095-41c7bca4176b">
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fe089c6-296d-433c-ab28-2e89ec3a1aad">
   <producedTypes>
-    <objectType typeId="2f15c31d-201a-4703-92a0-150933b984fe" valueTypeId="3a8e31fd-7039-4caa-8760-78eeebf49254"/>
-    <refType typeId="ceb6cb58-0af8-4847-9ac6-0f21d9954896" valueTypeId="81d5fe2f-8b38-466c-8072-dc64c45ede78"/>
-    <selectionType typeId="ae665ec2-ee64-4560-b809-4c1919e8bdfa" valueTypeId="8900dc86-06f5-409e-b43b-4b82e5a25348"/>
-    <listType typeId="60cb8132-e06f-45a0-8dd8-085cebaba0c6" valueTypeId="afeb97c2-20bb-49a8-bd7b-67ba81bf8ede"/>
-    <managerType typeId="45f2a028-21c7-4584-8170-297eda4ef38e" valueTypeId="a9bc2f5c-a422-4d12-996b-8eed579367cb"/>
-    <displacingCalculationTypesType typeId="fe06f357-f804-4877-b401-23f653505f3a" valueTypeId="edce5d26-3473-4e66-a54f-1808885d6b2b"/>
-    <displacingCalculationTypesRowType typeId="b449542e-52d1-4248-a273-cb6b81438747" valueTypeId="ed2b8000-d69e-44e5-b4fa-5f7bd5a5b8f8"/>
-    <baseCalculationTypesType typeId="1da04a4e-0383-44fa-984e-5425f4eea18e" valueTypeId="705bc3e1-83d0-4b5b-a271-b6d8eef1edda"/>
-    <baseCalculationTypesRowType typeId="9e531614-9316-4fb5-af19-43d3756d9255" valueTypeId="9f15c90b-532e-4c25-90cf-30f4df4ca585"/>
-    <leadingCalculationTypesType typeId="181620a2-91d7-4ad3-b4d3-0be0f04fa47f" valueTypeId="cae47340-f567-47b1-8163-45a14db90b9d"/>
-    <leadingCalculationTypesRowType typeId="63356970-80cb-461f-8f0c-c6cf5d208dfc" valueTypeId="852e3a03-f7d9-472e-a1a9-cebe1ffb2d45"/>
+    <objectType typeId="4f744baa-0bee-4834-8a6c-9165f8baea37" valueTypeId="30efad9c-5e52-4e84-9ffc-9a2e30a53b9a"/>
+    <refType typeId="b5e17e00-612b-45a5-a129-1762ef47309b" valueTypeId="fec60229-75a2-40f6-965a-58b8250be75a"/>
+    <selectionType typeId="c3e76db2-de2f-4801-9907-f6cf6ceeba39" valueTypeId="8af2d51f-9509-492e-bd37-38c31ac2793f"/>
+    <listType typeId="fe970c98-dc08-4aab-be0c-37f135975e18" valueTypeId="f5744e13-6c6a-4cd7-8fdf-b3e6c9e23e29"/>
+    <managerType typeId="63a790ce-4bd7-4262-9beb-7b38cefb12fc" valueTypeId="e41f89e9-da4e-4d7b-92bf-b0bb0d07568f"/>
+    <displacingCalculationTypesType typeId="1756e28f-84e0-4361-8730-09ea593c381f" valueTypeId="d2dd7d23-a1fc-493a-a036-d9bafdac4adc"/>
+    <displacingCalculationTypesRowType typeId="d70c9cb7-6df4-4f1e-8d3d-b7cba0334fc7" valueTypeId="67ccf18a-dd63-4ab4-a288-2151e41438fb"/>
+    <baseCalculationTypesType typeId="49d76810-bb82-4631-af76-48eef4c1d891" valueTypeId="f418f74d-e98d-406b-b613-eebec7e35dae"/>
+    <baseCalculationTypesRowType typeId="78730f41-a27a-48a6-9d11-94d638a50040" valueTypeId="c7b8ddba-6e1b-447e-87f9-c9d6f8cdf000"/>
+    <leadingCalculationTypesType typeId="be2c9d57-acb4-41f7-b549-df9e19a5a51b" valueTypeId="2bf7628d-f538-4202-875f-6df971376e42"/>
+    <leadingCalculationTypesRowType typeId="cdd59fc1-4eb1-4908-b35f-1498f2ab1eac" valueTypeId="78ad41ad-983b-4b52-af06-5a7208de9cc4"/>
   </producedTypes>
   <name>ОсновныеНачисления</name>
   <synonym>
@@ -27,7 +27,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Виды расчета</value>
+    <value>Виды расчетов</value>
   </listPresentation>
   <codeLength>9</codeLength>
   <descriptionLength>40</descriptionLength>
@@ -40,14 +40,14 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
   <actionPeriodUse>true</actionPeriodUse>
   <predefined>
-    <items id="2051aa46-bc28-4c9d-94ca-b3f0b6d16dbb">
+    <items id="989c48e8-38cb-4fdf-b48a-2a86c1d882ec">
       <name>Невыход</name>
       <description>Невыход</description>
       <code xsi:type="core:StringValue">
         <value>Невыход</value>
       </code>
     </items>
-    <items id="ab52a9ea-d4e4-4551-91a0-fcd468b26d99">
+    <items id="ab26094f-3a0d-46bb-bcdf-283ffe52d12d">
       <name>Оклад</name>
       <description>Оклад</description>
       <code xsi:type="core:StringValue">
@@ -56,7 +56,7 @@
       <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</displaced>
       <leading>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</leading>
     </items>
-    <items id="6f24bb15-226e-490f-8e01-b372a3aea691">
+    <items id="826476b9-c97b-4d59-85bc-351c1845bcd1">
       <name>Премия</name>
       <description>Премия</description>
       <code xsi:type="core:StringValue">

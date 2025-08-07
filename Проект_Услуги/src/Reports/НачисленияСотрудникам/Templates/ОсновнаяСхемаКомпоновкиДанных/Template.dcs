@@ -15,6 +15,14 @@
 			<field>ВидРасчета</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Результат</dataPath>
+			<field>Результат</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Начало</dataPath>
 			<field>Начало</field>
 			<title xsi:type="v8:LocalStringType">
@@ -33,14 +41,6 @@
 					<v8:content>Окончание</v8:content>
 				</v8:item>
 			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Регистратор</dataPath>
-			<field>Регистратор</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Результат</dataPath>
-			<field>Результат</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -78,16 +78,6 @@
 					<dcsset:field>Результат</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
-			<dcsset:order>
-				<dcsset:item xsi:type="dcsset:OrderItemField">
-					<dcsset:field>Сотрудник</dcsset:field>
-					<dcsset:orderType>Asc</dcsset:orderType>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:OrderItemField">
-					<dcsset:field>Регистратор</dcsset:field>
-					<dcsset:orderType>Asc</dcsset:orderType>
-				</dcsset:item>
-			</dcsset:order>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Заголовок</dcscor:parameter>

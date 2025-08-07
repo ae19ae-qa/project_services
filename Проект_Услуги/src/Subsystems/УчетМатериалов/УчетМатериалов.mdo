@@ -16,5 +16,4 @@
   <content>Report.Материалы</content>
   <content>InformationRegister.ЦеныРеализации</content>
   <content>Report.ОстаткиМатериаловПоСвойствам</content>
-  <content>Role.Администратор</content>
 </mdclass:Subsystem>

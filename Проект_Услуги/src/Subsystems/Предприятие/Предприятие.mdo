@@ -25,5 +25,4 @@
   <content>AccountingRegister.Управленческий</content>
   <content>Report.ОборотноСальдоваяВедомость</content>
   <content>Report.Экспериментальный</content>
-  <content>Role.Администратор</content>
 </mdclass:Subsystem>
