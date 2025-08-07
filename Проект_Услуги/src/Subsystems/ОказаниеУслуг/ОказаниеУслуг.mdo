@@ -22,4 +22,5 @@
   <content>Report.РейтингКлиентов</content>
   <content>Report.Универсальный</content>
   <content>Report.ОстаткиМатериаловПоСвойствам</content>
+  <content>Role.Администратор</content>
 </mdclass:Subsystem>

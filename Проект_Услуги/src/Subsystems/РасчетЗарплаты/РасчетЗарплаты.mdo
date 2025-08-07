@@ -20,4 +20,5 @@
   <content>Report.НачисленияСотрудникам</content>
   <content>Report.ДиаграммаНачислений</content>
   <content>CalculationRegister.Начисления</content>
+  <content>Role.Администратор</content>
 </mdclass:Subsystem>
